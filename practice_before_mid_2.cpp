@@ -27,7 +27,7 @@ boxes = cookies / boxes;
 cout << "boxes needed = " << boxes << endl; // number of cookie ik box me 
 extraCookies = cookies % boxes; // number of extra cookies agar specified number se less cookies han
 containers = boxes / containers;
- cout << "containers needed = " << containers << endl; // number of box ik container me
+cout << "containers needed = " << containers << endl; // number of box ik container me
 extraBoxes = boxes % containers;
 cout << "leftover cookies = " << extraCookies << endl; // woh box which were not filling containers to the brim.
 
